@@ -62,14 +62,15 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 
 ---
 
-### 5. [Network Anomaly & DDoS Classifier](https://github.com/AkohMicheal/ddos-detection-api)
-> **Deep learning threat detection and volumetric flood ingestion pipeline.**
+### 5. [Akoh Inference API — Production ML Inference Microservice](https://github.com/AkohMicheal/akoh-inference-api)
+> **Containerized FastAPI inference service serving clinical diagnostic and industrial telemetry models.**
 
-* **Stack:** Python, TensorFlow (GRU/LSTM), FastAPI, Docker, Next.js.
+* **Stack:** Python 3.11, FastAPI, Pydantic v2, scikit-learn, Docker, Uvicorn, Pandas.
 * **The Build:**
-  * Built a low-latency inference pipeline trained on the CIC-DDoS2019 dataset to detect volumetric flood signatures in under 12ms per batch.
-  * Containerized the pre-processing boundary via Docker to sanitize and reject corrupted telemetry vectors before they hit the model.
-* **Links:** [API Backend](https://github.com/AkohMicheal/ddos-detection-api) · [Frontend UI](https://github.com/AkohMicheal/ddos-detection-ui)
+  * **Strict Runtime Gateways:** Enforced boundary validation with Pydantic v2 to catch and reject corrupted telemetry vectors (out-of-bounds vitals, invalid sensor RPMs) with 422 responses before touching inference pipelines.
+  * **Dynamic Binary Loader:** Designed a resilient model loader that automatically discovers and binds serialized `.pkl` pipelines via `joblib`, backed by deterministic clinical and industrial baseline heuristics during model retraining windows.
+  * **Containerized Deployment:** Packaged into a minimal `python:3.11-slim` container with native OpenAPI/Swagger interactive documentation.
+* **Links:** [Source Code](https://github.com/AkohMicheal/akoh-inference-api)
 
 ---
 
