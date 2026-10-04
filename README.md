@@ -62,7 +62,19 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 
 ---
 
-### 5. [Akoh Inference API — Production ML Inference Microservice](https://github.com/AkohMicheal/akoh-inference-api)
+### 5. [Dual-Stream Deepfake Detection System](https://github.com/AkohMicheal/Deepfake-Complete-WebApp-Project)
+> **End-to-end deepfake verification platform combining spatial CNNs with frequency-domain DCT analysis and Grad-CAM explainability.**
+
+* **Stack:** Python, TensorFlow/Keras, OpenCV, Discrete Cosine Transform (DCT), FastAPI, Next.js, Docker.
+* **The Build:**
+  * **Dual-Stream Forensic Pipeline:** Combines spatial visual artifact detection with frequency-domain spectrum analysis to expose subtle blending boundaries and compression artifacts that fool standard single-stream classifiers.
+  * **Explainable AI (XAI):** Integrated Grad-CAM to render real-time visual heatmaps directly on suspected facial crops, giving users transparent, visual justification behind confidence scores.
+  * **Decoupled Architecture:** Built a FastAPI microservice backend capable of chunked video frame extraction and batched model inference, feeding results asynchronously to a Next.js interface.
+* **Links:** [Source Code](https://github.com/AkohMicheal/Deepfake-Complete-WebApp-Project) · [Live Demo](https://deepfake-scanner-web.vercel.app/)
+
+---
+
+### 6. [Akoh Inference API — Production ML Inference Microservice](https://github.com/AkohMicheal/akoh-inference-api)
 > **Containerized FastAPI inference service serving clinical diagnostic and industrial telemetry models.**
 
 * **Stack:** Python 3.11, FastAPI, Pydantic v2, scikit-learn, Docker, Uvicorn, Pandas.
