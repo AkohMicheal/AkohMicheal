@@ -15,7 +15,19 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 
 ## 🚀 Featured Work & Case Studies
 
-### 1. [FMCG Festival — Ticketing & E-Commerce Platform](https://fmcg-festival.vercel.app/)
+### 1. [AkohGrid — Distributed Event-Driven Commerce Platform](https://github.com/AkohMicheal/AkohGrid)
+> **High-throughput microservices commerce platform coordinated via an Apache Kafka event bus.**
+
+* **Stack:** Turborepo, Next.js 15 (App Router), React 19, TypeScript, Node.js (Express 5 / Hono), Apache Kafka, Supabase (PostgreSQL), Drizzle ORM.
+* **The Build:**
+  * **Event-Driven Choreography:** Decoupled order fulfillment and customer notifications from the checkout path using Kafka message topics (`payment.successful`, `order.created`), eliminating fragile synchronous HTTP cascades.
+  * **Dual-Gateway Webhook Verification:** Engineered secure ingestion pipelines for both Stripe and Paystack (HMAC SHA512 buffer validation), backed by transaction idempotency locks to eliminate duplicate charging.
+  * **Unified Relational Core:** Centralized domain entities across services into a shared `@repo/db` package using Drizzle ORM and PostgreSQL with strict enum state machines.
+* **Links:** [Source Code](https://github.com/AkohMicheal/AkohGrid)
+
+---
+
+### 2. [FMCG Festival — Ticketing & E-Commerce Platform](https://fmcg-festival.vercel.app/)
 > **High-concurrency event registration and multi-tier vendor ticketing platform.**
 
 * **Stack:** Next.js (App Router), TypeScript, Tailwind CSS, Supabase, Drizzle ORM, Paystack, Sanity CMS.
@@ -27,7 +39,7 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 
 ---
 
-### 2. [Aura Properties — Modern Real Estate SaaS](https://github.com/AkohMicheal/aura-properties-saas)
+### 3. [Aura Properties — Modern Real Estate SaaS](https://github.com/AkohMicheal/aura-properties-saas)
 > **A high-performance property discovery platform built to fix the bloat of standard real estate templates.**
 
 * **Stack:** Next.js 16, React 19, TypeScript, Tailwind CSS v4, `@base-ui/react`.
@@ -39,7 +51,7 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 
 ---
 
-### 3. [GoVolo — Collaborative Workspace Platform](https://github.com/AkohMicheal/govolo)
+### 4. [GoVolo — Collaborative Workspace Platform](https://github.com/AkohMicheal/govolo)
 > **Collaborative full-stack travel coordination and productivity app.**
 
 * **Stack:** Next.js 16, TypeScript, React 19, Tailwind CSS v4.
@@ -50,7 +62,7 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 
 ---
 
-### 4. [Network Anomaly & DDoS Classifier](https://github.com/AkohMicheal/ddos-detection-api)
+### 5. [Network Anomaly & DDoS Classifier](https://github.com/AkohMicheal/ddos-detection-api)
 > **Deep learning threat detection and volumetric flood ingestion pipeline.**
 
 * **Stack:** Python, TensorFlow (GRU/LSTM), FastAPI, Docker, Next.js.
@@ -64,6 +76,6 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 ## 🛠️ Technical Toolkit
 
 - **Frontend:** Next.js (App Router, SSR, ISR, RSC), React 19, TypeScript, Tailwind CSS, shadcn/ui.
-- **Backend & Data:** Node.js, Python, PostgreSQL, Supabase, Drizzle ORM, Prisma, REST APIs.
+- **Backend & Data:** Node.js, Python, PostgreSQL, Supabase, Drizzle ORM, Prisma, REST APIs, Apache Kafka.
 - **Payments & CMS:** Paystack API, Stripe, Event-Driven Webhooks, Sanity CMS.
 - **Infrastructure:** Docker, Vercel Edge CDN, Railway, Git/GitHub Actions, cPanel DNS.
