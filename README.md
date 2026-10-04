@@ -39,7 +39,19 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 
 ---
 
-### 3. [Aura Properties — Modern Real Estate SaaS](https://github.com/AkohMicheal/aura-properties-saas)
+### 3. [AkohFlow (FocusPaws) — Cross-Platform Productivity & Companion Engine](https://github.com/AkohMicheal/AkohFlow)
+> **Production-ready cross-platform task manager for Android and Web built with React 19, Capacitor, Flask, and Supabase.**
+
+* **Stack:** React 19, Tailwind CSS v4, Capacitor 8 (Android), Python Flask, Supabase (PostgreSQL), SQLAlchemy, Google AdMob.
+* **The Build:**
+  * **Zero-Dropoff Gamification:** Solved standard to-do abandonment by tying task completion to critter companion energy meters, daily paw streaks, and avatar unlocks.
+  * **Hybrid Cross-Platform Bridge:** Compiled a unified React 19 codebase into native Android packages using Capacitor 8, integrating native hardware back-button interceptors and splash screens.
+  * **$0/Month Serverless Economics:** Decoupled persistence between Supabase PostgreSQL connection poolers and client JWT auth, enabling continuous ad-monetized operation at zero infrastructure overhead.
+* **Links:** [Source Code](https://github.com/AkohMicheal/AkohFlow)
+
+---
+
+### 4. [Aura Properties — Modern Real Estate SaaS](https://github.com/AkohMicheal/aura-properties-saas)
 > **A high-performance property discovery platform built to fix the bloat of standard real estate templates.**
 
 * **Stack:** Next.js 16, React 19, TypeScript, Tailwind CSS v4, `@base-ui/react`.
@@ -51,7 +63,7 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 
 ---
 
-### 4. [GoVolo — Collaborative Workspace Platform](https://github.com/AkohMicheal/govolo)
+### 5. [GoVolo — Collaborative Workspace Platform](https://github.com/AkohMicheal/govolo)
 > **Collaborative full-stack travel coordination and productivity app.**
 
 * **Stack:** Next.js 16, TypeScript, React 19, Tailwind CSS v4.
@@ -62,7 +74,7 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 
 ---
 
-### 5. [Dual-Stream Deepfake Detection System](https://github.com/AkohMicheal/Deepfake-Complete-WebApp-Project)
+### 6. [Dual-Stream Deepfake Detection System](https://github.com/AkohMicheal/Deepfake-Complete-WebApp-Project)
 > **End-to-end deepfake verification platform combining spatial CNNs with frequency-domain DCT analysis and Grad-CAM explainability.**
 
 * **Stack:** Python, TensorFlow/Keras, OpenCV, Discrete Cosine Transform (DCT), FastAPI, Next.js, Docker.
@@ -74,7 +86,7 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
 
 ---
 
-### 6. [Akoh Inference API — Production ML Inference Microservice](https://github.com/AkohMicheal/akoh-inference-api)
+### 7. [Akoh Inference API — Production ML Inference Microservice](https://github.com/AkohMicheal/akoh-inference-api)
 > **Containerized FastAPI inference service serving clinical diagnostic and industrial telemetry models.**
 
 * **Stack:** Python 3.11, FastAPI, Pydantic v2, scikit-learn, Docker, Uvicorn, Pandas.
@@ -83,6 +95,18 @@ I'm currently working deeply with the Next.js App Router, Supabase, Drizzle ORM,
   * **Dynamic Binary Loader:** Designed a resilient model loader that automatically discovers and binds serialized `.pkl` pipelines via `joblib`, backed by deterministic clinical and industrial baseline heuristics during model retraining windows.
   * **Containerized Deployment:** Packaged into a minimal `python:3.11-slim` container with native OpenAPI/Swagger interactive documentation.
 * **Links:** [Source Code](https://github.com/AkohMicheal/akoh-inference-api)
+
+---
+
+### 8. [Akoh Chat SDK — Embeddable Support Intelligence Runtime](https://github.com/AkohMicheal/akoh-chat-sdk)
+> **Lightweight multi-domain customer intelligence runtime and zero-dependency embeddable chat widget.**
+
+* **Stack:** Python 3.11, FastAPI, Scikit-Learn, Pydantic v2, Vanilla JS Widget, Docker.
+* **The Build:**
+  * **Domain Partitioning:** Pre-trained separate intent classification pipelines for E-Commerce (tracking, refunds), SaaS (billing, API keys), and General business FAQs.
+  * **Continuous Mistake-Learning:** Built a `/v1/feedback` ingestion hook that captures user sentiment and corrections into a retraining buffer to eliminate repetitive hallucinations.
+  * **Zero-Dependency Frontend:** Bundled a lightweight vanilla JavaScript floating widget embeddable via a single `<script>` tag on any web storefront.
+* **Links:** [Source Code](https://github.com/AkohMicheal/akoh-chat-sdk)
 
 ---
 
